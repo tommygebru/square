@@ -28,7 +28,6 @@ $(function() {
 			$nav.removeClass('show');
 			$nav.addClass('hide');
 			$buttons.removeClass('active inactive');
-			console.log('test');
 		}
 	})();
 });
