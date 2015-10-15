@@ -211,15 +211,13 @@ nav {
 		margin: 5px 0;
 		color: #fff;
 		position: relative;
-		width: 150px;
 		&:after {
-				content: '>';
-				position: absolute;
-				right: 20px;
-				top: 0;
-				color: #fff;
-				font-weight: 300;
-			}
+			content: '>';
+			display: inline-block;
+			margin-left: 8px;
+			color: #fff;
+			font-weight: 300;
+		}
 	}
 }
 
